@@ -62,11 +62,26 @@ Based on this dataset, we design two complementary tasks:
 ## Citation
 
 ```bibtex
-@article{heo2025can,
-  title={Can Large Language Models be Effective Online Opinion Miners?},
-  author={Heo, Ryang and Seo, Yongsik and Lee, Junseong and Lee, Dongha},
-  journal={arXiv preprint arXiv:2505.15695},
-  year={2025}
+@inproceedings{heo-etal-2025-large,
+    title = "Can Large Language Models be Effective Online Opinion Miners?",
+    author = "Heo, Ryang  and
+      Seo, Yongsik  and
+      Lee, Junseong  and
+      Lee, Dongha",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.1178/",
+    doi = "10.18653/v1/2025.emnlp-main.1178",
+    pages = "23108--23147",
+    ISBN = "979-8-89176-332-6",
+    abstract = "The surge of user-generated online content presents a wealth of insights into customer preferences and market trends.However, the highly diverse, complex, and context-rich nature of such content poses significant challenges to traditional opinion mining approaches.To address this, we introduce Online Opinion Mining Benchmark (OOMB), a novel dataset and evaluation protocol designed to assess the ability of large language models (LLMs) to mine opinions effectively from diverse and intricate online environments. OOMB provides, for each content instance, an extensive set of (entity, feature, opinion) tuples and a corresponding opinion-centric insight that highlights key opinion topics, thereby enabling the evaluation of both the extractive and abstractive capabilities of models.Through our proposed benchmark, we conduct a comprehensive analysis of which aspects remain challenging and where LLMs exhibit adaptability, to explore whether they can effectively serve as opinion miners in realistic online scenarios.This study lays the foundation for LLM-based opinion mining and discusses directions for future research in this field."
 }
 ```
 
